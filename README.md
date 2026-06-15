@@ -45,9 +45,9 @@ To correctly talk to the conversion platform loop script, configure your hardwar
 Action Codes Mapping Layout
 The conversion table maps values sequentially using a baseline starting structure setup:
 
-* Sending standard Program Change Value 0 shifts the physical pedal channel directly to Preset 1
-* Sending standard Program Change Value 1 shifts the physical pedal channel directly to Preset 2
-* Sending standard Program Change Value 2 shifts the physical pedal channel directly to Preset 3
+* Sending standard Program Change Value 1 shifts the physical pedal channel directly to Preset 1
+* Sending standard Program Change Value 2 shifts the physical pedal channel directly to Preset 2
+* Sending standard Program Change Value 3 shifts the physical pedal channel directly to Preset 3
 * The progression follows sequentially matching the system properties all the way down to Value 13, which successfully forces the target pedal hardware light indicators over to Preset 14
 
 ## Running the Project
